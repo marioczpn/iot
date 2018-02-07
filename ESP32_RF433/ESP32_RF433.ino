@@ -5,10 +5,7 @@
   Written in 2018 by Mario Ponciano - marioczpn@gmail.com
 */
 #include <WiFi.h>
-#include <WiFiUdp.h>
 #include <WiFiClient.h>
-#include <WiFiServer.h>
-#include <PubSubClient.h> 
 #include <RCSwitch.h>
 #include <IFTTTMaker.h>
 #include <WiFiClientSecure.h>
@@ -17,7 +14,7 @@ RCSwitch mySwitch = RCSwitch();
 
 //-------- your wifi -----------
 const char* ssid = "YOUR_SSID";
-const char* password = "YOUR_PWD";
+const char* password = "YOUR_PASSWD";
 
 WiFiClientSecure wifiClient;
 
